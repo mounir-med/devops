@@ -14,13 +14,13 @@
     </properties>
 
     <build>
-    <plugins>
-        <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>latest_version</version>
-        </plugin>
-    </plugins>
-</build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version> <!-- Remplacez par la version la plus récente -->
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
